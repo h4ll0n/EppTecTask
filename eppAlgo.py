@@ -1,3 +1,6 @@
+# Algoritmus trideni seznamu podle pravidel
+
+# Funkce pro aplikaci pravidel
 def apply_rules(item):
     account_number = str(item["account_number"])
     interest_rate = item["interest_rate"]
@@ -6,6 +9,8 @@ def apply_rules(item):
     else:
         return False
 
+
+# Funkce pro trideni seznamu
 def sort_list(lst):
     sorted_list = []
     for item in lst:
